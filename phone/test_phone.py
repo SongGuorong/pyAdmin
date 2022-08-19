@@ -29,14 +29,13 @@ class TestPhone(TestCase):
             pass
 
     def test_find_on_ok(self):
-
         res = self.p.find(1521147)
         print(res)
-        # self.assertEqual(res['zip_code'], '421000')
-        # self.assertEqual(res['area_code'], '0734')
-        # self.assertEqual(res['city'], '衡阳')
-        # self.assertEqual(res['province'], '湖南')
-        # self.assertEqual(res['phone_type'], '移动')
+        self.assertEqual(res['zip_code'], '421000')
+        self.assertEqual(res['area_code'], '0734')
+        self.assertEqual(res['city'], '衡阳')
+        self.assertEqual(res['province'], '湖南')
+        self.assertEqual(res['phone_type'], '移动')
 
     def test_find_on_no_res(self):
         res = self.p.find(1991147)
