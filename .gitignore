@@ -6,6 +6,6 @@ classes/
 .classpath
 .idea/
 /.project
-
+*.csv
 *.iml
 overlays/
