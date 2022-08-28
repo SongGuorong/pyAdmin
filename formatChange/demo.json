@@ -1,0 +1,17 @@
+[
+    {
+        "memberId": "1001",
+        "tags": [
+            "aaa",
+            "bbb",
+            "ccc"
+        ]
+    },
+    {
+        "memberId": "1002",
+        "tags": [
+            "aaa",
+            "ccc"
+        ]
+    }
+]
