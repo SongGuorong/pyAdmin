@@ -9,3 +9,6 @@ classes/
 *.csv
 *.iml
 overlays/
+*.hdf5
+*.yaml
+__pycache__/*
